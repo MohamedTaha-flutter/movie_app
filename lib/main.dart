@@ -9,7 +9,7 @@ import 'package:movies_appp/features/movies/presentation/views/movies_screen.dar
 import 'core/constant/remote_api.dart';
 
 void main() {
-  ServiceLocator().init();
+  ServiceLocator.init();
   runApp(const MyApp());
 }
 
